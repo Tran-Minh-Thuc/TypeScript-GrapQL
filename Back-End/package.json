@@ -1,0 +1,32 @@
+{
+  "name": "backend-quan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./dist/index.js",
+    "watch": "npx tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FBI-GROUP/back-end-quan.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FBI-GROUP/back-end-quan/issues"
+  },
+  "homepage": "https://github.com/FBI-GROUP/back-end-quan#readme",
+  "dependencies": {
+    "@types/node": "^17.0.32",
+    "apollo-server": "^3.7.0",
+    "dotenv": "^16.0.1",
+    "graphql": "^16.5.0",
+    "graphql-tools": "^8.2.9",
+    "mongoose": "^6.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
